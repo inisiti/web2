@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn JS DOM</title>
+</head>
+<body>
+    <div id="upe">This is the first div</div>
+    <div id="flower">This is the second div</div>
+
+    <p>This is a paragraph</p>
+    <p>This is also paragraph</p>
+
+    <p class="caramel">This is a paragraph with a class</p>
+
+    <div id="sitompul">
+        <p id="laoli"> This is a child</p>
+
+    </div>
+
+    <script>
+        const upe = document.getElementById('upe');
+        const flower = document.getElementById('flower');
+
+        upe.innerHTML = "This is the new content for upe";
+        flower.innerHTML = "This is the new content for flower";
+
+        const pars = document.getElementsByTagName('p');
+        pars[1].innerHTML = "This is the content for the paragraph";
+
+        const caramel = document.querySelector('.caramel');
+        caramel.style.backgroundColor ='pink';
+
+        const child = document.getElementById('laoli');
+        const parent = child.parentNode;
+        parent.style.backgroundColor = 'blue';
+
+        caramel.addEventListener('click', function(){
+            alert('Hi');
+        });
+         </script>
+</body>
+</html>
