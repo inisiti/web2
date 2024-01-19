@@ -12,12 +12,34 @@
     <p>This is a name</p>
     <p>This is also name</p>
 
+    <p class="tii">This is a name in the class</p>
+
+    <div id="Sitanggang">
+        <p id="Tambunan">This is a child</p>
+
+    </div>
+
     <script>
         const Siti = document.getElementById('Siti');
         const Tambunan = document.getElementById('Tambunan');
 
         Siti.innerHTML = "This is the new name for siti";
         Tambunan.innerHTML = "This is the last name for Tambunan";
+
+        const pars = document.getElementsByTagName('p');
+        pars[0].innerHTML = "This is a name for the paragraph";
+
+        const tii = document.querySelector('.tii');
+        tii.style.backgroundColor = 'blue';
+
+        const child = document.getElementById('Tambunan');
+        const parent = child.parentNode;
+        parent.style.backgroundColor = 'white';
+
+        tii.addEventListener('click', function(){
+            alert('Hello');
+        });
+
     </script>
 </body>
 </html>
