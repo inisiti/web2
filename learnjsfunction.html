@@ -21,7 +21,7 @@
          SitiPlusOne("Rhesa");
 
          function SitiFamily(plusOne, firstChild, secondChild){
-            console.log("Siti &" + plusOne + "&" + firstChild + "&" secondChild);
+            console.log("Siti &" + plusOne + "&" + firstChild + "&" + secondChild);
 
                 
             
@@ -44,6 +44,38 @@
 
             let resultScope = sitiScope(20);
             console.log(resultScope);
+            console.log(y);
+            //console.log(x);
+
+            function sitiouter(i){
+                let y = i + 2;
+                function sitiInner() {
+                    console.log(y)
+                }
+                sitiInner();
+            }
+
+            sitiouter(2);
+
+           // //Traditional finction
+           // function sitiMultiply(a, b) {
+             //   return a * b;
+            //}
+
+            //Arrow function
+            let sitiMultiply = (a, b) => a * b;
+
+            console.log(sitiMultiply(9, 8));
+
+            //Traditionsl functiion
+           // function helloFunction(name) {
+             //   console.log("Hi," + name);
+            //}
+
+            //Arrow function
+            let helloFunction = name => "Hi," + name;
+
+            console.log(helloFunction("Siti"))
 
     </script>
 </body>
