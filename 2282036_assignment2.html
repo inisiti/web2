@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript function</title>
+</head>
+<body>
+    <script>
+        function SitiCookingEatingMultiply(cook, eat) {
+            console.log("Siti &" + cook + "&" + eat);
+
+        }
+        SitiCookingEatingMultiply("cook", "eat");
+
+        let tambunanDivision = (cook, eat, play) => cook * eat * play;
+        console.log(tambunanDivision(8, 9, 11));
+
+        let reverseString = function (str) {
+            return str.split('').reverse().join('');
+        };
+
+        
+        let generateRandomNumber = function (min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        };
+
+        let name = "Tambunan";
+        function sayName() {
+            let name = "Siti";
+            console.log(name);
+        }
+        sayName();
+        console.log(name);
+
+        let memasak = 40;
+        function add(y) {
+            y = y + 20;
+            return y ;
+        }
+        let result = add(memasak);
+        console.log(memasak);
+        console.log(result);
+        
+    </script>
+</body>
+</html>
