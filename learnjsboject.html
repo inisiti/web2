@@ -14,14 +14,62 @@
             gender : "female",
             major : "Information System",
             sayHello: function() {
-                console.log("Hello");
-            }       
+                console.log("Hello" + this.name);
+            },   
+            sayIt : function(word) {
+                console.log("the word is:" + word)
+            }    
          }
+
+         student.sayIt("FTI UNAI is the best!");
 
         console.log(student.name);
         console.log(student.email);
 
         student.sayHello();
+
+        student.studentID = "036";
+
+        console.log(student.studentID);
+
+        function Car(make, model, year, color) {
+            this.make = make;
+            this.model = model;
+            this.year = year;
+            this.color = color;
+        }
+
+        let car1 = new Car("Toyota", "Camry", 2020, "Blue");
+        let car2 = new Car("BMW", "320i", 2023, "Black");
+        let car3 = new Car("Tesla", "Model 3", 2019, "White");
+
+        console.log(car1.model);
+        console.log(car3.make);
+        console.log(car2["year"]);
+        console.log(car2["make"]);
+
+        let food = {  
+            fruits : [],
+            addfruits: function(item) {
+                this.fruits.push(item);
+            },
+            showFruits: function() {
+                console.log(this.fruits);
+            },
+        }
+
+        food.showFruits();
+        food.addFruits("Banana");
+        food.showFruits();
+        food.addFruits("Apple");
+        food.showFruits();
+        food.addFruits("Mango");
+        food.showFruits();
+        food.addFruits("Kiwi");
+        food.showFruits();
+        food.addFruits("Orange");
+        food.showFruits();
+
     </script>
 </body>
 </html>
