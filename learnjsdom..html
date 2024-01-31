@@ -13,7 +13,7 @@
             }
 
             speak() {
-                console.log('${this.name} makes an noise');
+                console.log(`${this.name} makes an noise`);
             }
         }
 
@@ -28,14 +28,15 @@
             }
 
             bark() {
-                console.logg(this.name + "barks");
+                console.log(this.name + "barks");
             }
         }
 
-        let cuteDog = new Dog("Pita", Husky);
+        let cuteDog = new Dog("Pita", "Husky");
         console.log(cuteDog.name);
         console.log(cuteDog.breed);
-        console.loog(cuteDog.bark());
+        console.log(cuteDog.bark());
+        console.log(cuteDog.speak());
     </script>
 </body>
 </html>
