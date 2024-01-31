@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn JS object part 2</title>
+</head>
+<body>
+    <script>
+        class Animal {
+            constructor(name) {
+                this.name = name;
+            }
+
+            speak() {
+                console.log('${this.name} makes an noise');
+            }
+        }
+
+        let elephant = new Animal("Cika");
+        console.log(elephant.name);
+        console.log(elephant.speak());
+
+        class Dog extends Animal {
+            constructor(name, breed) {
+                super(name);
+                this.breed = breed;
+            }
+
+            bark() {
+                console.logg(this.name + "barks");
+            }
+        }
+
+        let cuteDog = new Dog("Pita", Husky);
+        console.log(cuteDog.name);
+        console.log(cuteDog.breed);
+        console.loog(cuteDog.bark());
+    </script>
+</body>
+</html>
