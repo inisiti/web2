@@ -1,0 +1,74 @@
+{
+    "classmates" : [
+        {
+            "name" : "Rhesa Ivander Sihol Azaria Panjaitan",
+            "id" : 2282004,
+            "age" : 20,
+            "grade" : "A",
+            "favoriteSubject" : "Web2",
+            "reasonForInterest" : "because he want's to become a web developer",
+            "favoriteTopic" : "Javascript Object",
+            "hobbies" : "Playing Violin and Playing Online Games",
+            "yearsInvolved" : 2010,
+            "skillLevel" : "Pro",
+            "personalGoals" : "Web Developer"
+            
+        },
+        {
+            
+            "name" : "Priscilla N Tari",
+            "id" : 2282009,
+            "age" : 20,
+            "grade" : "A",
+            "favoriteSubject" : "Web2",
+            "reasonForInterest" : "because she love's making a web",
+            "favoriteTopic" : "Javascript Function",
+            "hobbies" : "Watching Korean Drama",
+            "yearsInvolved" : 2016,
+            "skillLevel" : "Pro",
+            "personalGoals" : "Web Developer" 
+        },
+        {
+            "name" : "Sartika Laoli",
+            "id" : 2282038,
+            "age" : 20,
+            "grade" : "A",
+            "favoriteSubject" : "Pemrograman Bergerak",
+            "reasonForInterest" : "because she like's to learn it",
+            "favoriteTopic" : "modeling a aplication of mobile",
+            "hobbies" : "reading a comic",
+            "yearsInvolved" : 2018,
+            "skillLevel" : "master",
+            "personalGoals" : "software developer"
+        },
+        {
+            "name" : "Gita Marcella Naibaho",
+            "id" : 2282023,
+            "age" : 19,
+            "grade" : "A",
+            "favoriteSubject" : "Web 2",
+            "reasonForInterest" : "because she like's to learn it",
+            "favoriteTopic" : "Cascading Style Sheets ( CSS )",
+            "hobbies" : "Singing",
+            "yearsInvolved" : 2015,
+            "skillLevel" : "medium",
+            "personalGoals" : "fullstack developer"
+        },
+        {
+            "name" : "Yehezkiel Sitompul",
+            "id" : 2282028,
+            "age" : 19,
+            "grade" : "A",  
+            "favoriteSubject" : "Pemrograman Bergerak",
+            "reasonForInterest" : "because she like's to learn it",
+            "favoriteTopic" : "modeling a aplication of mobile",
+            "hobbies" : "Singing",
+            "yearsInvolved" : 2011,
+            "skillLevel" : "Professional",
+            "personalGoals" : "software developer"
+        }
+
+
+
+    ]
+}
