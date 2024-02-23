@@ -8,6 +8,17 @@
 <body>
     <div id="app">
         {{ message }}
+        <br>
+        Name:{{name}}
+        <br>
+        Age:{{age}}
+        <br>
+        Products: (displayed using v-for)
+        <ul>
+            <li v-for="product in products">
+                {{product}}
+            </li>
+        </ul>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
@@ -17,7 +28,10 @@
         createApp ({
             data() {
                 return {
-                    message: 'Hello Vue!'
+                    message: 'Hello Vue!',
+                    name: 'siti tambunan',
+                    age: '20',
+                     products: ["Macbook Pro", "Mackbook Air", "Ipad Pro"]
                 }
             }
         }).mount('#app')
